@@ -7,6 +7,9 @@
   <maintainer email="cecilia.goncalves@sou.inteli.edu.br">celia123</maintainer>
   <license>TODO: License declaration</license>
 
+  <depend>rclpy</depend>
+  <depend>re</depend>
+
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
   <test_depend>ament_pep257</test_depend>

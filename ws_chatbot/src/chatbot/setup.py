@@ -15,7 +15,7 @@ setup(
     zip_safe=True,
     maintainer='celia123',
     maintainer_email='cecilia.goncalves@sou.inteli.edu.br',
-    description='TODO: Package description',
+    description='Chatbot para controle de robôs no ROS 2',
     license='TODO: License declaration',
     tests_require=['pytest'],
     entry_points={
