@@ -1,0 +1,51 @@
+[0.000000] (-) TimerEvent: {}
+[0.000411] (chatbot) JobQueued: {'identifier': 'chatbot', 'dependencies': OrderedDict()}
+[0.000443] (chatbot) JobStarted: {'identifier': 'chatbot'}
+[0.101860] (-) TimerEvent: {}
+[0.203069] (-) TimerEvent: {}
+[0.303371] (-) TimerEvent: {}
+[0.403698] (-) TimerEvent: {}
+[0.504020] (-) TimerEvent: {}
+[0.604317] (-) TimerEvent: {}
+[0.651168] (chatbot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/chatbot', 'build', '--build-base', '/home/celia123/Documentos/Github/chatbot_ros/ws_chatbot/build/chatbot/build', 'install', '--record', '/home/celia123/Documentos/Github/chatbot_ros/ws_chatbot/build/chatbot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/celia123/Documentos/Github/chatbot_ros/ws_chatbot/src/chatbot', 'env': {'LANGUAGE': 'pt_BR:pt:en', 'USER': 'celia123', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/celia123', 'OLDPWD': '/home/celia123/Documentos/Github/chatbot_ros', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2206', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/celia123/Documentos/Github/chatbot_ros/ws_chatbot/install:/home/celia123/Documentos/Github/chatbot_ros/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'celia123', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'celia123', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/celia123-Inspiron-15-3511:@/tmp/.ICE-unix/2178,unix/celia123-Inspiron-15-3511:/tmp/.ICE-unix/2178', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/9cd5dd05_d416_477e_88ce_75f537d04f88', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'pt_BR.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.DG2HY2', 'GNOME_TERMINAL_SERVICE': ':1.1518', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/celia123/Documentos/Github/chatbot_ros/ws_chatbot/install/chatbot:/home/celia123/Documentos/Github/chatbot_ros/install/chatbot:/opt/ros/humble', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/celia123/Documentos/Github/chatbot_ros/ws_chatbot/build/chatbot', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/celia123/Documentos/Github/chatbot_ros/ws_chatbot/build/chatbot/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/celia123/Documentos/Github/chatbot_ros/ws_chatbot/install/chatbot/lib/python3.10/site-packages:/home/celia123/Documentos/Github/chatbot_ros/ws_chatbot/install/chatbot/lib/python3.10/site-packages:/home/celia123/Documentos/Github/chatbot_ros/install/chatbot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.704438] (-) TimerEvent: {}
+[0.804789] (-) TimerEvent: {}
+[0.900852] (chatbot) StdoutLine: {'line': b'running egg_info\n'}
+[0.901531] (chatbot) StdoutLine: {'line': b'creating ../../build/chatbot/chatbot.egg-info\n'}
+[0.902054] (chatbot) StdoutLine: {'line': b'writing ../../build/chatbot/chatbot.egg-info/PKG-INFO\n'}
+[0.902148] (chatbot) StdoutLine: {'line': b'writing dependency_links to ../../build/chatbot/chatbot.egg-info/dependency_links.txt\n'}
+[0.902279] (chatbot) StdoutLine: {'line': b'writing entry points to ../../build/chatbot/chatbot.egg-info/entry_points.txt\n'}
+[0.902425] (chatbot) StdoutLine: {'line': b'writing requirements to ../../build/chatbot/chatbot.egg-info/requires.txt\n'}
+[0.902500] (chatbot) StdoutLine: {'line': b'writing top-level names to ../../build/chatbot/chatbot.egg-info/top_level.txt\n'}
+[0.902793] (chatbot) StdoutLine: {'line': b"writing manifest file '../../build/chatbot/chatbot.egg-info/SOURCES.txt'\n"}
+[0.904865] (-) TimerEvent: {}
+[0.905133] (chatbot) StdoutLine: {'line': b"reading manifest file '../../build/chatbot/chatbot.egg-info/SOURCES.txt'\n"}
+[0.905982] (chatbot) StdoutLine: {'line': b"writing manifest file '../../build/chatbot/chatbot.egg-info/SOURCES.txt'\n"}
+[0.906075] (chatbot) StdoutLine: {'line': b'running build\n'}
+[0.906147] (chatbot) StdoutLine: {'line': b'running build_py\n'}
+[0.906290] (chatbot) StdoutLine: {'line': b'creating /home/celia123/Documentos/Github/chatbot_ros/ws_chatbot/build/chatbot/build\n'}
+[0.906422] (chatbot) StdoutLine: {'line': b'creating /home/celia123/Documentos/Github/chatbot_ros/ws_chatbot/build/chatbot/build/lib\n'}
+[0.906499] (chatbot) StdoutLine: {'line': b'creating /home/celia123/Documentos/Github/chatbot_ros/ws_chatbot/build/chatbot/build/lib/chatbot\n'}
+[0.906573] (chatbot) StdoutLine: {'line': b'copying chatbot/chatbot.py -> /home/celia123/Documentos/Github/chatbot_ros/ws_chatbot/build/chatbot/build/lib/chatbot\n'}
+[0.906718] (chatbot) StdoutLine: {'line': b'copying chatbot/__init__.py -> /home/celia123/Documentos/Github/chatbot_ros/ws_chatbot/build/chatbot/build/lib/chatbot\n'}
+[0.906793] (chatbot) StdoutLine: {'line': b'running install\n'}
+[0.907102] (chatbot) StdoutLine: {'line': b'running install_lib\n'}
+[0.907973] (chatbot) StdoutLine: {'line': b'creating /home/celia123/Documentos/Github/chatbot_ros/ws_chatbot/install/chatbot/lib/python3.10/site-packages/chatbot\n'}
+[0.908205] (chatbot) StdoutLine: {'line': b'copying /home/celia123/Documentos/Github/chatbot_ros/ws_chatbot/build/chatbot/build/lib/chatbot/chatbot.py -> /home/celia123/Documentos/Github/chatbot_ros/ws_chatbot/install/chatbot/lib/python3.10/site-packages/chatbot\n'}
+[0.908404] (chatbot) StdoutLine: {'line': b'copying /home/celia123/Documentos/Github/chatbot_ros/ws_chatbot/build/chatbot/build/lib/chatbot/__init__.py -> /home/celia123/Documentos/Github/chatbot_ros/ws_chatbot/install/chatbot/lib/python3.10/site-packages/chatbot\n'}
+[0.908839] (chatbot) StdoutLine: {'line': b'byte-compiling /home/celia123/Documentos/Github/chatbot_ros/ws_chatbot/install/chatbot/lib/python3.10/site-packages/chatbot/chatbot.py to chatbot.cpython-310.pyc\n'}
+[0.910239] (chatbot) StdoutLine: {'line': b'byte-compiling /home/celia123/Documentos/Github/chatbot_ros/ws_chatbot/install/chatbot/lib/python3.10/site-packages/chatbot/__init__.py to __init__.cpython-310.pyc\n'}
+[0.910606] (chatbot) StdoutLine: {'line': b'running install_data\n'}
+[0.910695] (chatbot) StdoutLine: {'line': b'creating /home/celia123/Documentos/Github/chatbot_ros/ws_chatbot/install/chatbot/share/ament_index\n'}
+[0.910772] (chatbot) StdoutLine: {'line': b'creating /home/celia123/Documentos/Github/chatbot_ros/ws_chatbot/install/chatbot/share/ament_index/resource_index\n'}
+[0.910847] (chatbot) StdoutLine: {'line': b'creating /home/celia123/Documentos/Github/chatbot_ros/ws_chatbot/install/chatbot/share/ament_index/resource_index/packages\n'}
+[0.910930] (chatbot) StdoutLine: {'line': b'copying resource/chatbot -> /home/celia123/Documentos/Github/chatbot_ros/ws_chatbot/install/chatbot/share/ament_index/resource_index/packages\n'}
+[0.910992] (chatbot) StdoutLine: {'line': b'copying package.xml -> /home/celia123/Documentos/Github/chatbot_ros/ws_chatbot/install/chatbot/share/chatbot\n'}
+[0.911051] (chatbot) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.912479] (chatbot) StdoutLine: {'line': b'Copying ../../build/chatbot/chatbot.egg-info to /home/celia123/Documentos/Github/chatbot_ros/ws_chatbot/install/chatbot/lib/python3.10/site-packages/chatbot-0.1.0-py3.10.egg-info\n'}
+[0.913161] (chatbot) StdoutLine: {'line': b'running install_scripts\n'}
+[0.933949] (chatbot) StdoutLine: {'line': b'Installing chatbot script to /home/celia123/Documentos/Github/chatbot_ros/ws_chatbot/install/chatbot/lib/chatbot\n'}
+[0.934353] (chatbot) StdoutLine: {'line': b"writing list of installed files to '/home/celia123/Documentos/Github/chatbot_ros/ws_chatbot/build/chatbot/install.log'\n"}
+[0.959780] (chatbot) CommandEnded: {'returncode': 0}
+[0.969623] (chatbot) JobEnded: {'identifier': 'chatbot', 'rc': 0}
+[0.970465] (-) EventReactorShutdown: {}

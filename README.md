@@ -38,7 +38,10 @@ git clone https://github.com/cecigonca/chatbot_ros.git
 ```bash
 cd chatbot_ros/ws_chatbot
 ```
+```bash
+pip install rclpy nltk
 
+```
 ```bash
 colcon build
 ```
@@ -67,4 +70,5 @@ ros2 run chatbot chatbot
     - "Vamos para a biblioteca"
 
 ### Vídeo do Funcionamento
-![Funcionamento](videos/chatbot_ros.gif)
+[![Thumbnail do Vídeo](static/capavideo.jpg)](https://www.youtube.com/watch?v=jI8CMnbVSiw)
+
